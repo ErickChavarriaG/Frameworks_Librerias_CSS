@@ -10,47 +10,131 @@
     <title>Blog de Gastronomía</title>
   </head>
   <body>
+    <div class="container">
 
-    <div class="row logo-redes">
-      <div class='col-xs-6 col-sm-6 col-md-6 col-lg-6 contenedor-logos'>
-        <img class='logo-img' src='img/logo1.png'/>
-      </div>
-      <div class='col-xs-6 col-sm-6 col-md-6 col-lg-6 contenedor-sociales'>
-        <div class='redes-sociales align-bottom'>
-          <img class='img-rounded img-social' src='img/fb.png'/>
-          <img class='img-rounded img-social' src='img/yt.png'/>
-          <img class='img-rounded img-social' src='img/ig.png'/>
-          <img class='img-rounded img-social' src='img/tw.png'/>
+      <!-- Encabezado del sitio -->
+      <header>
+        <div class="row position-relative-md">
+          <div class="col-3-md col-xs-12 text-center">
+            <img src="img/logo1.png" alt="Logo Mi Blog Musical" class="logo-img">
+            <h2 class="titulo-blog">Mi Blog Músical</h2>
+          </div>
+          <div class="col-md-2 col-md-offset-7 text-center col-xs-12 redes-socilaes position-absolute-md">
+            <img src="img/fb.png" alt="fb-icono" class="social-img">
+            <img src="img/ig.png" alt="ig-icono" class="social-img">
+            <img src="img/pt.png" alt="pt-icono" class="social-img">
+            <img src="img/tw.png" alt="tw-icono" class="social-img">
+            <img src="img/yt.png" alt="yt-icono" class="social-img">
+          </div>
         </div>
-      </div>
-    </div>
-     <!-- Navegación -->
-    <div class="row">
-      <nav class="navbar navbar-default" role="navigation">
-        <ul class="nav navbar-nav">
-              <li><a href="#">Inicio</a></li>
+      </header>
+
+      <!-- Barra de navegación -->
+      <div class="row">
+        <nav id="menu-navegacion" class="navbar navbar-default">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav text-center">
+              <li class="activo"><a href="#">Inicio</a></li>
               <li><a href="#">Artistas</a></li>
               <li><a href="#">Grupos</a></li>
               <li><a href="#">Top 10</a></li>
               <li><a href="#">Letras</a></li>
               <li><a href="#">Acordes</a></li>
-        </ul>
-      </nav>
-    </div>
-    <!-- Contenido -->
-    <div class="container">
+            </ul>
+          </div>
+        </nav>
+      </div>
 
-      <div class="row">
+      <!-- Contenido -->
+      <div class="row contenido">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <article>
+            <h2>Título POST # 1</h2>
+            <hr>
+            <p class="text-justify">Aries is the first sign of the zodiac, and that's pretty much how those born under this sign see themselves: first. Aries are the leaders of the pack, first in line to get things going. Whether or not everything gets done is another question altogether, for an Aries prefers to initiate rather than to complete. Do you have a project needing a kick-start? Call an Aries, by all means. The leadership displayed by Aries is most impressive, so don't be surprised if they can rally the troops against seemingly insurmountable odds.</p>
+            <p class="text-right">
+                <a href="singlepost.html" class="text-right">
+                    continue reading...
+                </a>
+            </p>
+            <br />
+            <img src="img/jar.jpg" class="img-responsive">
+            <hr>
+            <!-- Post-->
+              <form>
+                <div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            <hr>
+          </article>
+          <article>
+            <h2>Título POST # 2</h2>
+            <hr>
+            <img src="img/mg.jpg" class="img-responsive">
+            <br />
+            <p class="text-justify">Aries is the first sign of the zodiac, and that's pretty much how those born under this sign see themselves: first. Aries are the leaders of the pack, first in line to get things going. Whether or not everything gets done is another question altogether, for an Aries prefers to initiate rather than to complete. Do you have a project needing a kick-start? Call an Aries, by all means. The leadership displayed by Aries is most impressive, so don't be surprised if they can rally the troops against seemingly insurmountable odds.</p>
+            <p class="text-right">
+                <a href="singlepost.html" class="text-right">
+                    continue reading...
+                </a>
+            </p>
+            <hr>
+            <!-- Post-->
+              <form>
+                <div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
 
-        <div class="contenido col-lg-8">
-
+            <hr>
+          </article>
         </div>
-
-        <div class="busqueda col-lg-4">
-
+        <div class="visible-md visible-lg col-md-4 col-lg-4">
+          <div class="row">
+            <div class="col-md-12 col-lg-12">
+              <form class="navbar-form" role="search">
+                <div class="input-group col-lg-12">
+                    <input type="text" class="form-control input-lg" placeholder="Busqueda" name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+                </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-lg-12">
+              <ul class="list-group">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
     </div>
+    <footer>
+        <div class="container">
+            <hr />
+            <p class="text-center">Copyright © 2018. All rights reserved.</p>
+        </div>
+    </footer>
   </body>
 </html>
