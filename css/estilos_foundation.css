@@ -1,20 +1,32 @@
 body{
   margin: 2% auto;
-  background:url(img/fondo.jpg) no-repeat center;
 }
-
-/* div[class*="columns"]{
-  background: #B4DCED;
-  border: 1px solid #585858;
-
-  font-size: 1rem;
-} */
-
-/* .contenedor{
-  background-color: #BDBDBD;
-  height: 600px;
-} */
 
 .navegacion li:hover{
   background-color: blue;
+}
+
+.avatar-wrap {
+    display: inline-block;
+}
+
+.avatar-wrap img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+h5.content-title {
+    font-size: 1.5em;
+}
+.panel {
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border: 1px solid #ebebeb;
+}
+
+.row.comment .panel .row.comment-body p {
+    font-size: 16px;
+    line-height: 24px;
 }
