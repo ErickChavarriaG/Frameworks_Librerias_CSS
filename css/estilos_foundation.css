@@ -1,0 +1,20 @@
+body{
+  margin: 2% auto;
+  background:url(img/fondo.jpg) no-repeat center;
+}
+
+/* div[class*="columns"]{
+  background: #B4DCED;
+  border: 1px solid #585858;
+
+  font-size: 1rem;
+} */
+
+/* .contenedor{
+  background-color: #BDBDBD;
+  height: 600px;
+} */
+
+.navegacion li:hover{
+  background-color: blue;
+}
