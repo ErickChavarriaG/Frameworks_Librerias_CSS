@@ -12,7 +12,7 @@
   <body>
     <div class="container contenedor">
       <!-- Encabezado -->
-      <div class="row">
+      <div class="row encabezado hide-for-small-only">
         <div class="medium-4 columns">
           <h2>Coronadeños</h2>
           <h4 class="text-right">Sabor incomparable</h4>
@@ -23,12 +23,15 @@
 
       <!-- Cuerpo -->
       <div class="row">
-        <!-- Buscador, Navegación, Favoritos e Historial -->
+        <!--  Buscador, Navegación, Favoritos e Historial -->
         <div class="medium-4 columns left-side">
-          <div class="row">
-
+          <div class="row hide-for-small-only">
+            <div class="input-group">
+              <input class="input-group-field" type="text">
+              <span class="input-group-label  btn-buscar"><i class="fi-magnifying-glass"></i></span>
+            </div>
           </div>
-          <div class="row menu">
+          <div class="row menu hide-for-small-only">
             <ul class="vertical menu menu-expanded navegacion">
               <li><a href="#"><i class="fi-home"></i> <span>Inico</span></a></li>
               <li><a href="#"><i class="fi-star"></i> <span>Mi plato perfecto</span></a></li>
@@ -64,25 +67,25 @@
              <!-- Posts list -->
             <section class="busquedas">
               <a href="#">
-                <h3 class="post-title">Post title place-holder</h3>
+                <h5 class="post-title">Receta de arroz con lecha</h5>
               </a>
               <a href="#">
-                <h3 class="post-title">Post title place-holder</h3>
+                <h5 class="post-title">Platillos de preparación rápida</h5>
               </a>
               <a href="#">
-                <h3 class="post-title">Post title place-holder</h3>
+                <h5 class="post-title">Repostería</h5>
               </a>
               <a href="#">
-                <h3 class="post-title">Post title place-holder</h3>
+                <h5 class="post-title">Recetas libres de gluten</h5>
               </a>
               <a href="#">
-                <h3 class="post-title">Post title place-holder</h3>
+                <h5 class="post-title">Rellenos para sándwiches</h5>
               </a>
               <a href="#">
-                <h3 class="post-title">Post title place-holder</h3>
+                <h5 class="post-title">Receta de Pollo a la naranja</h5>
               </a>
               <a href="#">
-                <h3 class="post-title">Post title place-holder</h3>
+                <h5 class="post-title">Cómo hacer Paella Valenciana</h5>
               </a>
             </section>
            </div>
@@ -95,13 +98,13 @@
               <h3>Cheesecake de fresas... delicioso..!!! </h3>
               <p class="date"><small>27/01/2018</small></p>
               <img class="thumbnail" src="img/cheesecake.jpg">
-              <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-              <div class="callout">
+              <p class="text-justify">Este cheesecake sin horno o conocido también como pastel de queso sin cocción, es realmente exquisito y muy fácil de preparar. Esta es la receta perfecta para cuando estás buscando un postre fácil de preparar y rico.  Con una base de galletas de chocolate y la crema de un sabor único hacen que este postre sea un éxito.</p>
+              <div class="callout post-area">
                 <label>
                   Escriba un comentario
                   <textarea placeholder="Acá tus comentarios"></textarea>
                 </label>
-                <button class="button">Publicar</button>
+                <button class="button btn-publicar">Publicar</button>
               </div>
               <div class="large-12 small-12 columns">
                 <div class="panel comment-wrapper">
@@ -113,7 +116,7 @@
                   </h5>
                   <div class="row comment-body">
                     <div class="large-12 small-12 columns">
-                      <p>Comentario 1.</p>
+                      <p>Donde busco la receta</p>
                     </div>
                   </div>
                 </div>
@@ -128,7 +131,7 @@
                   </h5>
                   <div class="row comment-body">
                     <div class="large-12 small-12 columns">
-                      <p>Comentario 2.</p>
+                      <p>Hay algún video de la preparación?</p>
                     </div>
                   </div>
                 </div>
@@ -143,7 +146,7 @@
                   </h5>
                   <div class="row comment-body">
                     <div class="large-12 small-12 columns">
-                      <p>Comentario 3.</p>
+                      <p>Interesante pero no pusiste la receta</p>
                     </div>
                   </div>
                 </div>
@@ -157,13 +160,15 @@
               <h3>Una alternativa saludable de comer hamburguesas. </h3>
               <p class="date"><small>20/01/2018</small></p>
               <img class="thumbnail" src="img/hamburg.jpg">
-              <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-              <div class="callout">
+              <p class="text-justify">Una hamburguesa bien hecha puede ser una comida tan sabrosa como un plato de restaurante. Pero, para eso, es necesario abandonar la conveniencia del fast food y de las hamburguesas congeladas - para una hamburguesa realmente rica, usted necesita hacer su bife de hamburguesa.
+
+              El secreto para una hamburguesa deliciosa es equilibrar la carne magra con una carne con más grasa. Es muy importante traer grasa para el bife de hamburguesa, sino quedará muy seco y duro - y el punto ideal de la hamburguesa es húmedo y tierno</p>
+              <div class="callout post-area">
                 <label>
                   Escriba un comentario
                   <textarea placeholder="Acá tus comentarios"></textarea>
                 </label>
-                <button class="button">Publicar</button>
+                <button class="button btn-publicar">Publicar</button>
               </div>
               <div class="large-12 small-12 columns">
                 <div class="panel comment-wrapper">
@@ -214,7 +219,6 @@
         </div>
       </div>
     </div>
-
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>

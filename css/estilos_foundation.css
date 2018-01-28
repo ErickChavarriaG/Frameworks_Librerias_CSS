@@ -1,9 +1,44 @@
 body{
   margin: 2% auto;
+    background: url('../img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit -background-size: cover;
+    -moz -background-size: cover;
+    -o -background-size: cover;
+}
+
+.contenedor{
+  background: rgb(44, 62, 80); /* Fallback */
+	background: rgba(44, 62, 80,.3); /* Transparent */
+}
+
+.encabezado{
+  background-color: #566573;
+}
+
+.menu a{
+  color: black;
+  font-size: 20px;
+}
+
+.busquedas a h5{
+  color: black;
+}
+
+.right-side{
+  background-color: #EBDEF0;
+}
+
+.left-side{
+  background-color: #F2D7D5;
 }
 
 .navegacion li:hover{
-  background-color: blue;
+  background-color: #E6B0AA;
+}
+
+.busquedas a:hover{
+  background-color: #E6B0AA;
 }
 
 .avatar-wrap {
@@ -29,4 +64,19 @@ h5.content-title {
 .row.comment .panel .row.comment-body p {
     font-size: 16px;
     line-height: 24px;
+}
+
+.comment-wrapper, .post-area{
+  background-color: #EBDEF0;
+}
+
+.btn-publicar, .btn-buscar{
+  background-color: #F1948A;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .contenedor{
+    width: 100%;
+  }
 }
