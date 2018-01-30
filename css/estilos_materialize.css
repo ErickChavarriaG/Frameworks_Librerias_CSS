@@ -44,6 +44,15 @@ body{
     background-color: white;
 }
 
+.alineartextoizq{
+  float: left;
+}
+
+.margen{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 @media (max-width: 600px) {
   body{
     margin: 0% !important;
