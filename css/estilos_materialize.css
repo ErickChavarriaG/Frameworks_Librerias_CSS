@@ -1,7 +1,57 @@
 body{
+  margin: 2%;
     background: url('../img/fondo-mtz.jpg') no-repeat center center fixed;
     background-size: cover;
     -webkit -background-size: cover;
     -moz -background-size: cover;
     -o -background-size: cover;
+}
+
+.logo{
+  width: 200px;
+  margin-top: 0.5rem;
+  float: left;
+}
+
+.titulo{
+  color: white;
+}
+
+.social-img {
+  width: 60px;
+}
+
+.autor-img{
+  width: 100px;
+}
+/* .responsive-img{
+  border: 0.6rem solid #ff8f00;
+  border-radius: 5px;
+} */
+
+.btn-efectos{
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.galeria{
+  height: 400px;
+}
+
+.post {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+}
+
+@media (max-width: 600px) {
+  body{
+    margin: 0% !important;
+    padding: 0 !important;
+  }
+
+  .logo{
+    width: 100% auto;
+    border-radius: 20px;
+  }
 }
